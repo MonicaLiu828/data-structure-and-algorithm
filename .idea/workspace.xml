@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c8e568-b4d5-42fa-b620-7c078f246115" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hashing/1133_Largest_Unique_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/1189_Maximum_Number_of_Balloons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/1426_Counting_Elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/2225_Find_Players_With_Zero_or_One_Losses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/268_Missing_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/383_Ransom_Note.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/3_Longest_Substring_Without_Repeating_Character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/771_Jewels_and_Stones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
