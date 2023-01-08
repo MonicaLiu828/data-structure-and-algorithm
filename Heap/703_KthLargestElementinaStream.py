@@ -19,7 +19,10 @@ class KthLargest:
             heapq.heappop(self.minheap)
             return self.minheap[0]
 
-# time: O(n) + (n-k)logn + 2*logk ->n is the lenght of nums,k is k's number of elements
+# time:
+# init: O(n) + (n-k)logn  (n is the length of nums )
+# add: 2*logk- > logk  (k is k's number of elements)
+
 # space: O(N)
 
 

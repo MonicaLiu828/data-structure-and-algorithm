@@ -9,9 +9,12 @@ class Solution:
         while len(maxheap) > 1:
             first = abs(heapq.heappop(maxheap))
             second = abs(heapq.heappop(maxheap))
-            add = heapq.heappush(maxheap,second-first)
+            if first != second:
+                heapq.heappush(maxheap, second - first)
+
         if len(maxheap) == 1:
             return abs(maxheap[0])
-
+        else:
+            return 0
 # time: O(n) + O(n) + n * 2(O(logn)) -> nlog(n)
 # space: O(2n) -> O(n)

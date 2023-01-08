@@ -18,8 +18,21 @@ class MedianFinder:
             average = -self.maxheap[0]
         return average
 
+# Time:
+# add: 5log(n/2) -> logn (n is the length of data stream)
+# find: O1
 
+# Space:
+# O(n)
 # Your MedianFinder object will be instantiated and called as such:
 # obj = MedianFinder()
 # obj.addNum(num)
 # param_2 = obj.findMedian()
+
+
+# entire stream in asc sorted order:
+# numbers on the left side: maxHeap
+# numbers on the right side: minHeap
+# maxHeap top is below minheap top, each time -> each element goes into maxheap, then popped max to minheap, then
+# put top of minheap to max if minheap length > maxheap length, it will make sure maxheap over minheap one number or
+# maxheap length == minheap length
