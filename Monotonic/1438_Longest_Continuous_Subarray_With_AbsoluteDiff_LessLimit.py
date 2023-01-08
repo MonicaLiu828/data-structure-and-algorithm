@@ -1,4 +1,5 @@
 class Solution:
+
     # sliding window
     # deque
     def longestSubarray(self, nums: List[int], limit: int) -> int:
@@ -25,7 +26,8 @@ class Solution:
 #   time : O(3n) -> o(n)
 #   space: O(2n) -> o(n)
 
-
+# https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+# solutions/609708/python-clean-monotonic-queue-solution-with-detail-explanation-o-n/
 
 
 
