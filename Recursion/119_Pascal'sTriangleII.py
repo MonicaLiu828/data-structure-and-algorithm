@@ -15,5 +15,5 @@ class Solution:
         return res
 
     # time:  O(k*K)->o(k2)
-    # space: O(k)
+    # space: O(k2)
     # For the k, k is the Kth row
