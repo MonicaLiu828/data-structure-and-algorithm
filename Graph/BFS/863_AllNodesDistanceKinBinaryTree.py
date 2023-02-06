@@ -11,7 +11,7 @@ class Solution:
         if k == 0:
             return [target.val]
         stor = defaultdict(list)
-
+        # convert binary tree into a undirected graph:
         def dfs(node):
             if not node:
                 return
@@ -25,7 +25,7 @@ class Solution:
                 dfs(node.right)
 
         dfs(root)
-
+        # bfs graph map to find k times from target:
         seen = set()
         seen.add(target.val)
         bfs = deque()
