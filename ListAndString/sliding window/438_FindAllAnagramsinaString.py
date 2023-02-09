@@ -23,3 +23,6 @@ class Solution:
                     res.append(i)
             j += 1
         return res
+
+    # time: o(n) -> n is the length of string s
+    # space: O(m), where m is the number of unique characters in the string p.
